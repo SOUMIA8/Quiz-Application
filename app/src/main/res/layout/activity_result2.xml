@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context=".ResultActivity2">
+
+    <!-- ImageView for icon -->
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/markk"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <!-- TextView for displaying Correct Answers -->
+    <TextView
+        android:id="@+id/tvres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Correct Answers"
+        android:layout_marginTop="140dp"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:fontFamily="@font/suse_bold"
+        android:textSize="22sp"
+        android:background="#76FF03"
+        android:padding="8dp" />
+
+    <!-- TextView for displaying Wrong Answers -->
+    <TextView
+        android:id="@+id/tvres2"
+        android:layout_below="@id/tvres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wrong Answers"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:fontFamily="@font/suse_bold"
+        android:textSize="22sp"
+        android:background="#E1EF1010"
+        android:padding="8dp"
+        android:layout_marginTop="24dp" />
+
+    <!-- TextView for displaying Final Score -->
+    <TextView
+        android:id="@+id/tvres3"
+        android:layout_below="@id/tvres2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Final Score"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:fontFamily="@font/suse_bold"
+        android:textSize="22sp"
+        android:background="#FFEB3B"
+        android:padding="8dp"
+        android:layout_marginTop="24dp" />
+
+    <!-- TextView for displaying Percentage -->
+    <TextView
+        android:id="@+id/tvres4"
+        android:layout_below="@id/tvres3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Percentage: 0%"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:fontFamily="@font/suse_bold"
+        android:textSize="40sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp" />
+
+    <!-- Restart Button -->
+    <Button
+        android:id="@+id/btnRestart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Restart"
+        android:layout_marginBottom="30dp"
+        android:background="@color/second_color"
+        android:fontFamily="@font/suse_bold"
+        android:textSize="25sp"
+        android:textColor="@android:color/white"
+        android:padding="12dp" />
+
+    <!-- Result TextView for score details -->
+    <TextView
+        android:id="@+id/resulttext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/tvres4"
+        android:layout_marginTop="30dp"
+        android:text=""
+        android:textColor="#000"
+        android:textSize="22sp" />
+
+</RelativeLayout>

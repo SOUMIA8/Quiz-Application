@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme -->
+    <style name="Base.Theme.QuizApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/blue_primary</item>
+        <item name="colorPrimaryVariant">@color/blue_secondary</item>
+        <item name="colorOnPrimary">#FFFFFF</item> <!-- White text on primary color -->
+        <item name="colorSecondary">@color/blue_secondary</item>
+        <item name="colorOnSecondary">#FFFFFF</item> <!-- White text on secondary color -->
+    </style>
+
+    <style name="Theme.QuizApp" parent="Base.Theme.QuizApp" />
+</resources>

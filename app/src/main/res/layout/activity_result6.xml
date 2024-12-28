@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context=".ResultActivity6">
+
+
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/markk"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="10dp"
+        />
+    <TextView
+        android:id="@+id/tvres"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:text="Large text"
+        android:layout_marginTop="180dp"
+        android:background="#76FF03"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:fontFamily="@font/suse_bold"
+        android:textSize="19dp"
+        />
+
+    <TextView
+        android:id="@+id/tvres2"
+        android:layout_below="@+id/tvres"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:text="Large text"
+        android:layout_marginTop="31dp"
+        android:background="#E1EF1010"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:fontFamily="@font/suse_bold"
+        android:textSize="19dp"
+
+        />
+
+
+    <TextView
+        android:id="@+id/tvres3"
+        android:layout_below="@+id/tvres2"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:text="Large text"
+        android:layout_marginTop="31dp"
+        android:background="#FFEB3B"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:fontFamily="@font/suse_bold"
+        android:textSize="19dp"
+        />
+
+    <TextView
+        android:id="@+id/tvres4"
+        android:layout_below="@+id/tvres3"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:text="Percentage: 0%"
+        android:layout_marginTop="100dp"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:fontFamily="@font/suse_bold"
+        android:textSize="40sp" />
+
+
+    <Button
+        android:id="@+id/btnRestart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Restart"
+        android:layout_marginBottom="30dp"
+        android:background="@color/second_color"
+        android:fontFamily="@font/suse_bold"
+        android:textSize="25sp"
+        />
+
+
+    <TextView
+        android:id="@+id/resulttext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/tvres4"
+        android:layout_marginTop="30dp"
+        android:text=""
+        android:textColor="#000"
+        android:textSize="22sp"/>
+
+</RelativeLayout>
